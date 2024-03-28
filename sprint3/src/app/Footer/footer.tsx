@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import logoFiap from './../../../public/assets/logoFiap.png'
-import logoSalesforce from './../../../public/assets/logoSalesforce.png'
+import logoSalesforce from './../../../public/assets/logoSalesforce.svg'
 import './../../../public/css/footer.css'
 
 const Footer = () => {

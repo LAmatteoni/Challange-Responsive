@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import logoSalesforce from './../../../public/assets/logoSalesforce.png'
+import logoSalesforce from './../../../public/assets/logoSalesforce.svg'
 import lupa from './../../../public/assets/lupa.png'
 import menuHamburguer from './../../../public/assets/menuHamburguer.png'
 import '../../../public/css/header.css'

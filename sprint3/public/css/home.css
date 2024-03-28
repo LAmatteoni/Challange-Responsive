@@ -1,0 +1,105 @@
+.container{
+    width: 1280px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.section-bg-escuro{
+    background-color: #032D60;
+}
+
+.text1{
+    color: white;
+}
+
+.text2 h3{
+    color: #032D60;
+    font-size: 30px;
+}
+
+.text2 p{
+    color: #032D60;
+    font-size: 15px;
+}
+
+.section-busca{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.section-busca h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.section-busca h3{
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+
+.barra-pesquisa{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 10%;
+    color: #032D60;
+    margin-bottom: 40px;
+
+}
+
+.barra-pesquisa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+article{
+    background-color: white;
+    width: 210px;
+    height: 155px;
+    border-radius: 30px;
+}
+
+article img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+article h4{
+    color: #032D60;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.flex-article{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-form{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 500px;
+    align-items: center;
+}
+
+
+
+
