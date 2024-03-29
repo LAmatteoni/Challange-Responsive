@@ -1,5 +1,3 @@
-import Header from './Header/header';
-import Footer from './Footer/footer';
 import Image from 'next/image';
 import "./../../public/css/home.css";
 import AstroFeliz from "./../../public/assets/Amigo-ASTRO.png"
