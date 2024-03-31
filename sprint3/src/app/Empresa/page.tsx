@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import BannerSalesforce from './../../../public/assets/bannerSalesforce.png'
 import AstroAmigos from './../../../public/assets/astroAmigos.png'
 import Funcionarios from './../../../public/assets/funcionarios.png'
 import AstroColmeia from './../../../public/assets/astroColmeia.png'
@@ -12,7 +11,6 @@ const Empresa = () => {
         <>
             <section className="section-pergunta">
                 <h1>Você conhece a Salesforce?</h1>
-                <Image src={BannerSalesforce} alt='Banner da salesforce' className='BannerSalesforce'/>
             </section>
 
             <section className="clientes">
