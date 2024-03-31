@@ -17,8 +17,8 @@ export default function Home() {
       <section className='section-bg-escuro'>
         <div className='container flex'>
           <div className='text1'>
-              <h2>O que há de novo para a Salesforce</h2>
-              <h1>EXPLORE O NOVO</h1>
+              <h2>O que há de novo para a Salesforce?</h2>
+              <h1>EXPLORE O NOVO!</h1>
           </div>
 
           <Image src={AstroFeliz} alt='Personagem Astro correndo'/>
@@ -31,7 +31,7 @@ export default function Home() {
 
       <section>
 
-        <div className='container flex'>
+        <div className='container flex direction'>
             <Image src={AstroCajado} alt='Personagem Astro ascenando com um cajado'/>
           
 
@@ -91,7 +91,7 @@ export default function Home() {
 
       <section>
 
-            <div className='container flex'>
+            <div className='container flex direction'>
 
               <div className='text2'>
                 <h3>Experimente nosso novo<br /> chatbot!</h3>
@@ -110,7 +110,7 @@ export default function Home() {
 
       <section className='section-bg-escuro'>
 
-            <div className='container flex'>
+            <div className='container flex direction'>
 
               <div className='text1'>
                 <h3>MUITO MAIS<br /> ACESSBILIDADE</h3>
@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <Image src={Vlibras} alt='Personagem do assistente virtual online VLibras'/>
+              <Image src={Vlibras} alt='Personagem do assistente virtual online VLibras' className='vlibras'/>
             </div>
 
       </section>

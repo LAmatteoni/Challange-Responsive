@@ -71,7 +71,7 @@ header{
     display: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 680px){
 
     .menu-header-tela-maior{
         display: flex;
@@ -107,9 +107,5 @@ header{
         font-weight: bold;
         font-size: 20px;
     }
-    
-}
-
-@media (min-width: 1024px){
     
 }
