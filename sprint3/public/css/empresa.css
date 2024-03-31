@@ -27,6 +27,58 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    font-size: 80px;
+    font-size: 60px;
     color: var(--azul-principal);
+}
+
+.clientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.clientes h2{
+    text-align: center;
+    color: var(--azul-principal);
+    width: 90%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.clientes p{
+    display: flex;
+    text-align: justify;
+    width: 90%;
+    margin: 50px 0;
+}
+
+.funcionarios{
+    width: 90%;
+    height: auto;
+}
+
+.trailblazers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.trailblazers h2{
+    font-size: 40px;
+}
+.trailblazers h2, p{
+    color: var(--azul-principal);
+}
+
+.cards-trailblazers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.card-astro h3{
+    font-size: 25px;
 }

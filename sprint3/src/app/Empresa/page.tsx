@@ -19,7 +19,7 @@ const Empresa = () => {
                 <h2>Construímos pontes entre empresas e clientes.</h2>
                 <Image src={AstroAmigos} alt='Astro e amigos'/>
                 <p>Ajudamos a unir cada departamento para nos concentrarmos melhor nos clientes com o Customer 360, o CRM n°1 do mundo. Permitimos que todos, em todas as equipes, compartilhem uma única fonte de verdade com recursos de colaboração integrados que orientam conversas e decisões essenciais exatamente onde as pessoas trabalham. E com o Tableau, ajudamos as empresas a descobrir percepções profundas e a tomar ações orientadas por dados para melhor atender seus clientes.</p>
-                <Image src={Funcionarios} alt='3 funcionarios da empresa'/>
+                <Image src={Funcionarios} alt='3 funcionarios da empresa' className='funcionarios'/>
             </section>
 
             <section className="trailblazers">
@@ -31,15 +31,11 @@ const Empresa = () => {
                         <h3>Confiança</h3>
                         <span>Agimos como consultores confiáveis.</span>
                     </div>
-                </div>
-                <div className="cards-trailblazers">
                     <div className="card-astro">
                     <Image src={AstroCorrida} alt='Astro correndo'/>
                         <h3>Sucesso do cliente</h3>
-                        <span>Quando nossos cloientes são bem-sucedidos, temos ssucesso.</span>
+                        <span>Quando nossos clientes são bem-sucedidos, temos ssucesso.</span>
                     </div>
-                </div>
-                <div className="cards-trailblazers">
                     <div className="card-astro">
                     <Image src={EinsteinSala} alt='Einstein ensinando na sala'/>
                         <h3>Inovação</h3>

@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
                 <div className="botoes-menu">
                     <button className='lupa'><Image src={lupa} alt='Botão de lupa para pesquisa'/></button>
-                    <button className="hamburger" onClick={toggleMenu}><Image src={menuHamburguer} alt='botão do menu hamburguer' className='imagemBurguer'/></button>
+                    <label className="hamburger" onClick={toggleMenu}><Image src={menuHamburguer} alt='botão do menu hamburguer' className='imagemBurguer'/></label>
                     {isOpen && (
                         <nav className="menu-header">
                             <ul>
@@ -32,6 +32,13 @@ const Header = () => {
                             </ul>
                         </nav>
                     )}
+                    <nav className="menu-header-tela-maior">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="./../Empresa">Salesforce</a></li>
+                            <li><a href="./../Sobrenos">Sobre Nós</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </header>  
         </>

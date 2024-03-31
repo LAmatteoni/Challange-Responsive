@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <Image src={AstroAtendente} alt='Personagem Astro atendendo o telefone'/>
+              <Image src={AstroAtendente} alt='Personagem Astro atendendo o telefone' className='astro-atendente'/>
             </div>
 
       </section>

@@ -1,0 +1,59 @@
+:root{
+    --azul-principal: #032D60;
+    --azul-salesforce: #00A1E0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.equipe h1{
+    font-size: 40px;
+    color: var(--azul-principal);
+    text-transform: uppercase;
+}
+
+.desenvolvedores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul-principal);
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 70px;
+    gap: 40px;
+}
+.desenvolvedores h2{
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card-integrante{
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+.card-integrante h3, span{
+    margin: 0 10px;
+}
+
+.frase-branca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0;
+}
+.frase-branca p{
+    text-align: center;
+    width: 70%;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
