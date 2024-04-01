@@ -21,7 +21,7 @@
 }
 .section-pergunta h1{
     margin: 0 10px;
-    font-size: 80px;
+    font-size: 60px;
     color: var(--azul-principal);
 }
 
@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 550px) {
     .section-pergunta h1{
-        font-size: 100px;
+        font-size: 80px;
         margin-left: 40px;
         width: 500px;
     }
