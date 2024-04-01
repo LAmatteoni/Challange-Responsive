@@ -1,6 +1,5 @@
 "use client"
 import { Poppins } from 'next/font/google';
-import type { Metadata } from "next";
 import Header from "./Header/header";
 import Footer from "./Footer/footer";
 import Providers from "./providers";

@@ -40,6 +40,10 @@ export default function Home() {
 
             <p>Nosso amigo pode te  guiar na sua jornada pelo mundo Salesforce! <br />
               Se voce quiser saber mais, é só clicar no botão abaixo e se aventurar como um <br /> verdadeiro Trailbrazer!</p>
+              
+            <div className='botao'>
+              <button>Acompanhe nosso amigo aqui</button>
+            </div>
           </div>
         </div>
 
@@ -98,8 +102,8 @@ export default function Home() {
 
                 <p>Experimente tirar suas dúvidas sobre o universo Salesforce com rapidez, agilidade e precisão!</p>
 
-                <div>
-                  <button>Acesse aqui nosso chatbot</button>
+                <div className='botao'>
+                  <button>Acesse nosso chatbot aqui</button>
                 </div>
               </div>
 
@@ -116,10 +120,6 @@ export default function Home() {
                 <h3>MUITO MAIS<br /> ACESSBILIDADE</h3>
 
                 <p>Experimente uma nova forma de navegar em nosso site utilizando o VLibras para acessibilidade a pessoas com deficiência auditiva. Estamos comprometidos em tornar nossa plataforma inclusiva e acessível a todos.</p>
-
-                <div>
-                  <button>Acesse aqui nosso chatbot</button>
-                </div>
               </div>
 
               <Image src={Vlibras} alt='Personagem do assistente virtual online VLibras' className='vlibras'/>
@@ -129,25 +129,49 @@ export default function Home() {
 
 
       <section>
-        <div className="style-form">
-          
-          <form action="">
-            <label htmlFor="nome">Nome:</label><br />
-            <input type="text" name="name" placeholder="Nome"/> <br />
+        <div className='section-urso'>
+          <div className='container flex direction urso'>
 
-            <label htmlFor="email">E-mail:</label><br />
-            <input type="email" name="email" placeholder="E-mail"/> <br />
+            <div className='text2'>
+              <h3>Ainda está com<br /> dúvidas?</h3>
 
-            <label htmlFor="cidade">Cidade:</label><br/>
-            <input type="text" name="cidade" placeholder="Cidade"/> 
+              <p>Entre em contato com nossa equipe</p>
 
-            <label htmlFor="estado">Estado:</label>
-            <input type="text" name="estado" placeholder="Cidade"/> 
-            <input type="text" name="area de interesse" placeholder="Área de Interesse"/> 
+            </div>
+          </div>
+          <div className="style-form">
 
-          </form>
+            <form action="">
+              <label htmlFor="nome">Nome:</label>
+              <input type="text" name="name"/><br/>
 
-          <Image src={Urso} alt='personagem de um urso com um mapa na mão'/>
+              <label htmlFor="email">E-mail:</label>
+              <input type="email" name="email"/><br/>
+
+              <div className="local">
+                <div className='tres-forms'>
+                  <label htmlFor="cidade">Cidade:</label>
+                  <input type="text" name="cidade" className='cidade-interesse'/> 
+                </div>
+
+                <div className='tres-forms'>
+                  <label htmlFor="estado">Estado:</label>
+                  <input type="text" name="estado" className='estado'/>
+                </div>
+
+                <div className='tres-forms'>
+                  <label htmlFor="area-interesse">Área de interesse:</label>
+                  <input type="text" name="area de interesse" className='cidade-interesse'/> 
+                </div>
+              </div>
+
+            </form>
+
+            <div className="perdido">
+              <button>Enviar</button>
+              <Image src={Urso} alt='personagem de um urso com um mapa na mão'/>
+            </div>
+          </div>
         </div>
       </section>
      
