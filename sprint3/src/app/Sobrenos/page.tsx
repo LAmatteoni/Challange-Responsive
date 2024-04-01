@@ -11,19 +11,21 @@ const Sobrenos = () => {
                 <h1>Nossa Equipe</h1>
                 <div className="desenvolvedores">
                     <h2>Conheça nossos desenvolvedores:</h2>
-                    <div className="card-integrante">
-                        <Image src={Lucca} alt='Foto de perfil do integrante Lucca'/>
-                        <h3>Lucca Matteoni</h3>
-                        <span>RM98146</span>
-                        <span>-</span>
-                        <span>1TDSPB</span>
-                    </div>
-                    <div className="card-integrante">
-                        <Image src={Vitor} alt='Foto de perfil do integrante Vitor'/>
-                        <h3>Vitor Santos</h3>
-                        <span>RM553621</span>
-                        <span>-</span>
-                        <span>1TDSPB</span>
+                    <div className="integrantes">
+                        <div className="card-integrante">
+                            <Image src={Lucca} alt='Foto de perfil do integrante Lucca'/>
+                            <h3>Lucca Matteoni</h3>
+                            <span>RM98146</span>
+                            <span>-</span>
+                            <span>1TDSPB</span>
+                        </div>
+                        <div className="card-integrante">
+                            <Image src={Vitor} alt='Foto de perfil do integrante Vitor'/>
+                            <h3>Vitor Santos</h3>
+                            <span>RM553621</span>
+                            <span>-</span>
+                            <span>1TDSPB</span>
+                        </div>
                     </div>
                 </div>
 

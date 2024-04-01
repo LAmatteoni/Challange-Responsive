@@ -46,7 +46,7 @@
 }
 
 .funcionarios{
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -69,16 +69,64 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 60%;
     margin-top: 30px;
 }
 
+.card-astro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
 .card-astro h3{
     font-size: 25px;
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 550px) {
     .section-pergunta h1{
         font-size: 100px;
+        margin-left: 40px;
+        width: 500px;
+    }
+
+    .clientes h2{
+        max-width: 600px;
+        font-size: 40px;
+    }
+
+    .clientes p{
+        width: 85%;
+    }
+
+    .cards-trailblazers{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-pergunta{
+        padding: 0 10%;
+    }
+
+    .clientes{
+        padding: 0 10%;
+    }
+
+    .trailblazers{
+        padding: 0 10%;
+    }
+
+    .clientes h2{
+        font-size: 50px;
+    }
+    .clientes p{
+        max-width: 70%;
+    }
+
+    .funcionarios{
+        max-width: 90%;
     }
 }

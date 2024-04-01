@@ -55,3 +55,10 @@ footer{
     color: white;
     padding: 20px 0;
 }
+
+@media screen and (min-width: 1024px){
+    address{
+        width: 400px;
+        margin-right: 60px;
+    }
+}
