@@ -17,6 +17,7 @@
     font-size: 50px;
     color: var(--azul-principal);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .desenvolvedores{
@@ -30,7 +31,7 @@
     gap: 40px;
 }
 .desenvolvedores h2{
-    width: 50%;
+    margin: 0 80px;
     margin-top: 20px;
     text-align: center;
     color: white;

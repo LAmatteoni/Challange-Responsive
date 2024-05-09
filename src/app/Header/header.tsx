@@ -6,6 +6,7 @@ import lupa from './../../../public/assets/lupa.png'
 import menuHamburguer from './../../../public/assets/menuHamburguer.png'
 import '../../../public/css/header.css'
 import { useState } from 'react';
+import Link from 'next/link';
 
     
 const Header = () => {
@@ -18,7 +19,9 @@ const Header = () => {
         <>
             <header>
                 <div className="logo">
-                    <Image src={logoSalesforce} alt="Logo da Salesforce"/>
+                    <Link href={"/"}>
+                        <Image src={logoSalesforce} alt="Logo da Salesforce"/>
+                    </Link>
                 </div>
                 <div className="botoes-menu">
                     <button className='lupa'><Image src={lupa} alt='Botão de lupa para pesquisa'/></button>

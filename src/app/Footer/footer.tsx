@@ -20,8 +20,10 @@ const Footer = () => {
 
                 <div className="endereco-logos">
                     <address>FIAP, 7th floor - Torre A, R. Fidêncio Ramos, 308 - Vila Olímpia, São Paulo - SP, 04551-000</address>
-                    <Image src={logoSalesforce} alt='Logo da SalesForce'/>
-                    <Image src={logoFiap} alt='Logo da FIAP'/>
+                    <div className="logos-footer">
+                        <Image src={logoSalesforce} alt='Logo da SalesForce'/>
+                        <Image src={logoFiap} alt='Logo da FIAP'/>
+                    </div>
                 </div>
                 
                 <div className="copyright">

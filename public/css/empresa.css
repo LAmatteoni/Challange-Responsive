@@ -21,8 +21,9 @@
 }
 .section-pergunta h1{
     margin: 0 10px;
-    font-size: 60px;
+    font-size: 50px;
     color: var(--azul-principal);
+
 }
 
 .clientes{
@@ -57,9 +58,11 @@
     margin-bottom: 100px;
 }
 .trailblazers h2{
+    color: var(--azul-principal);
     font-size: 40px;
+    text-align: center;
 }
-.trailblazers h2, p{
+.trailblazers p{
     color: var(--azul-principal);
 }
 
@@ -81,6 +84,12 @@
 }
 .card-astro h3{
     font-size: 25px;
+}
+
+@media screen and (min-width: 375px) {
+    .section-pergunta h1{
+        font-size: 60px;
+    }
 }
 
 @media screen and (min-width: 550px) {

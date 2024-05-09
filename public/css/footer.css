@@ -23,6 +23,8 @@ footer{
 .menu-footer ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
     list-style: none;
     padding: 0;
@@ -43,12 +45,21 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 10px;
 }
 .endereco-logos address{
     color: #fff;
     text-align: center;
+}
+.logos-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .copyright{

@@ -81,7 +81,7 @@ export default function Home() {
             <article>
               <Image src={AtCliente} alt='Imagem do peronsagem astro com itens relacionados a marketing' />
 
-              <h4>Atend. ao Cliente</h4>
+              <h4>Atendimento ao Cliente</h4>
             </article>
 
             <article>
@@ -117,7 +117,7 @@ export default function Home() {
             <div className='container flex direction'>
 
               <div className='text1'>
-                <h3>MUITO MAIS<br /> ACESSEBILIDADE</h3>
+                <h3>MUITO MAIS<br /> ACESSBILIDADE</h3>
 
                 <p>Experimente uma nova forma de navegar em nosso site utilizando o VLibras para acessibilidade a pessoas com deficiência auditiva. Estamos comprometidos em tornar nossa plataforma inclusiva e acessível a todos.</p>
               </div>

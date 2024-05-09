@@ -49,18 +49,23 @@ section{
 .text2{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    align-items: center;
 }
 
 
 .text2 h3{
     color: #032D60;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .text2 p{
     color: #032D60;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
 }
 .botao{
     display: flex;
@@ -122,7 +127,7 @@ section{
 article{
     background-color: white;
     width: 210px;
-    height: 155px;
+    height: 170px;
     border-radius: 30px;
 }
 
@@ -135,7 +140,7 @@ article h4{
     color: #032D60;
     text-align: center;
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .flex-article{
@@ -186,6 +191,7 @@ form{
 .perdido{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .perdido button{
     border: none;
