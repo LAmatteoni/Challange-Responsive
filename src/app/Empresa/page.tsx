@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import AstroAmigos from './../../../public/assets/astroAmigos.png'
-import Funcionarios from './../../../public/assets/funcionarios.png'
-import AstroColmeia from './../../../public/assets/astroColmeia.png'
-import AstroCorrida from './../../../public/assets/astroCorrida.png'
-import EinsteinSala from './../../../public/assets/einsteinSala.png'
-import './../../../public/css/empresa.css'
+import AstroAmigos from '../../../public/assets/astroAmigos.png'
+import Funcionarios from '../../../public/assets/funcionarios.png'
+import AstroColmeia from '../../../public/assets/astroColmeia.png'
+import AstroCorrida from '../../../public/assets/astroCorrida.png'
+import EinsteinSala from '../../../public/assets/einsteinSala.png'
+import '../../../public/css/empresa.css'
 
 const Empresa = () => {
     return(

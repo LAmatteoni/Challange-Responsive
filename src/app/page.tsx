@@ -1,15 +1,15 @@
 import Image from 'next/image';
-import "./../../public/css/home.css";
-import AstroFeliz from "./../../public/assets/Amigo-ASTRO.png"
-import AstroCajado from "./../../public/assets/ASTRO-CAJADO.png"
+import "../../public/css/home.css";
+import AstroFeliz from "../../public/assets/Amigo-ASTRO.png"
+import AstroCajado from "../../public/assets/ASTRO-CAJADO.png"
 import AstroAtendente from "./../../public/assets/ASTRO-atendente.png"
-import Urso from "./../../public/assets/Urso-perdido.png"
-import Vlibras from "./../../public/assets/exemploVLIBRAS.png"
-import Lupa from "./../../public/assets/lupa.png"
-import Marketing from "./../../public/assets/image1.svg"
-import Vendas from "./../../public/assets/image2.svg"
-import AtCliente from "./../../public/assets/image3.svg"
-import Sustentabilidade from "./../../public/assets/image4.svg"
+import Urso from "../../public/assets/Urso-perdido.png"
+import Vlibras from "../../public/assets/exemploVLIBRAS.png"
+import Lupa from "../../public/assets/lupa.png"
+import Marketing from "../../public/assets/image1.svg"
+import Vendas from "../../public/assets/image2.svg"
+import AtCliente from "../../public/assets/image3.svg"
+import Sustentabilidade from "../../public/assets/image4.svg"
 
 export default function Home() {
   return (

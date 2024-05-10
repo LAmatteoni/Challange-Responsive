@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import './../../../public/css/sobrenos.css'
-import Lucca from './../../../public/assets/lucca.png'
-import Vitor from './../../../public/assets/vitor.png'
-import AstroVaral from './../../../public/assets/astroVaral.png'
+import '../../../public/css/sobrenos.css'
+import Lucca from '../../../public/assets/lucca.png'
+import Vitor from '../../../public/assets/vitor.png'
+import AstroVaral from '../../../public/assets/astroVaral.png'
 
 const Sobrenos = () => {
     return(
