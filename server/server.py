@@ -56,7 +56,7 @@ def buscar_produtos():
         cursor.execute(sql)
 
         # Inicializar um dicionário para armazenar os produtos
-        produtos_dict = {}
+        produtos_dict = []
 
         # Iterar sobre os resultados da consulta
         for produto in cursor:
@@ -75,7 +75,7 @@ def buscar_produtos():
             }
 
             # Adicionar o produto ao dicionário de produtos usando o ID como chave
-            produtos_dict[id_produto] = produto_dict
+            produtos_dict.append(produto_dict)
 
         return produtos_dict
 

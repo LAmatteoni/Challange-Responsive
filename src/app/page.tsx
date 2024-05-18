@@ -5,11 +5,7 @@ import AstroCajado from "../../public/assets/ASTRO-CAJADO.png"
 import AstroAtendente from "./../../public/assets/ASTRO-atendente.png"
 import Urso from "../../public/assets/Urso-perdido.png"
 import Vlibras from "../../public/assets/exemploVLIBRAS.png"
-import Lupa from "../../public/assets/lupa.png"
-import Marketing from "../../public/assets/image1.svg"
-import Vendas from "../../public/assets/image2.svg"
-import AtCliente from "../../public/assets/image3.svg"
-import Sustentabilidade from "../../public/assets/image4.svg"
+import Card from './card/card';
 
 export default function Home() {
   return (
@@ -54,42 +50,8 @@ export default function Home() {
       <section className='section-bg-escuro'>
 
         <div className="container section-busca">
-          <h2>Nos diga, qual a sua área de interesse?</h2>
-
-          <div className='barra-pesquisa'>
-            <p>Pesquise aqui</p>
-
-            <Image src={Lupa} alt='Imagem de uma lupa'/>
-          </div>
-
-          <h3>Áreas mais pesquisadas</h3>
-
-
-          <div className='flex-article'>
-            <article>
-              <Image src={Marketing} alt='Imagem do peronsagem astro com itens relacionados a marketing' />
-
-              <h4>Marketing</h4>
-            </article>
-
-            <article>
-              <Image src={Vendas} alt='Imagem do peronsagem astro com itens relacionados a marketing' />
-
-              <h4>Vendas</h4>
-            </article>
-
-            <article>
-              <Image src={AtCliente} alt='Imagem do peronsagem astro com itens relacionados a marketing' />
-
-              <h4>Atendimento ao Cliente</h4>
-            </article>
-
-            <article>
-              <Image src={Sustentabilidade} alt='Imagem do peronsagem astro com itens relacionados a marketing' />
-
-              <h4>Sustentabilidade</h4>
-            </article>
-          </div>
+          <h2>Os melhores produtos!</h2>
+          <Card/>
         </div>
       </section>
 
