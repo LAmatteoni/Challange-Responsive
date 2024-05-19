@@ -37,7 +37,6 @@ const Header = () => {
                     )}
                     <nav className="menu-header-tela-maior">
                         <ul>
-                            <li><a href="/">Home</a></li>
                             <li><a href="./../Empresa">Salesforce</a></li>
                             <li><a href="./../Sobrenos">Sobre Nós</a></li>
                         </ul>

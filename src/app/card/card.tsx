@@ -20,11 +20,11 @@ const Card = () => {
     
     return(
         <>
-            <div className="content">
+            <div className="content-prod">
                 <div className="content-card">
                     {data.map((produto) => (
                     <div className="card" key={produto.id}>
-                        <Image src={"/assets/" + produto.area_atuacao + ".svg"} width={200} height={100} alt={produto.area_atuacao}/>
+                        <Image className="img-produtos" src={"/assets/" + produto.area_atuacao + ".svg"} width={100} height={100} alt={produto.area_atuacao}/>
                         <h3>{produto.nome}</h3>
                         <p>{produto.descricao}</p>
                         <p>R$ {produto.valor}</p>

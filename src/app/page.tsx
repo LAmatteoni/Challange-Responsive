@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <section className='section-bg-escuro'>
-        <div className='container flex'>
+        <div className='container flex gap'>
           <div className='text1'>
               <h2>O que há de novo para a Salesforce?</h2>
               <h1>EXPLORE O NOVO!</h1>
@@ -32,10 +32,9 @@ export default function Home() {
           
 
           <div className='text2'>
-            <h3>Agora nosso amigo pode te <br /> ajudar a conhecer mais sobre <br /> nós!</h3>
+            <h3>Agora nosso amigo pode te ajudar a conhecer mais sobre nós!</h3>
 
-            <p>Nosso amigo pode te  guiar na sua jornada pelo mundo Salesforce! <br />
-              Se voce quiser saber mais, é só clicar no botão abaixo e se aventurar como um <br /> verdadeiro Trailbrazer!</p>
+            <p>Nosso amigo pode te  guiar na sua jornada pelo mundo Salesforce! Se voce quiser saber mais, é só clicar no botão abaixo e se aventurar como um verdadeiro Trailbrazer!</p>
               
             <div className='botao'>
               <button>Acompanhe nosso amigo aqui</button>
@@ -60,7 +59,7 @@ export default function Home() {
             <div className='container flex direction'>
 
               <div className='text2'>
-                <h3>Experimente nosso novo<br /> chatbot!</h3>
+                <h3>Experimente nosso novo chatbot!</h3>
 
                 <p>Experimente tirar suas dúvidas sobre o universo Salesforce com rapidez, agilidade e precisão!</p>
 
@@ -76,10 +75,10 @@ export default function Home() {
 
       <section className='section-bg-escuro'>
 
-            <div className='container flex direction'>
+            <div className='container flex direction gap'>
 
               <div className='text1'>
-                <h3>MUITO MAIS<br /> ACESSBILIDADE</h3>
+                <h3>MUITO MAIS ACESSBILIDADE</h3>
 
                 <p>Experimente uma nova forma de navegar em nosso site utilizando o VLibras para acessibilidade a pessoas com deficiência auditiva. Estamos comprometidos em tornar nossa plataforma inclusiva e acessível a todos.</p>
               </div>

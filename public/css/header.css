@@ -107,6 +107,9 @@ header{
         font-weight: bold;
         font-size: 20px;
     }
+    .menu-header-tela-maior a:hover{
+        color: var(--azul-salesforce);
+    }
     
 }
 

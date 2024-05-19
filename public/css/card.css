@@ -1,15 +1,61 @@
+:root{
+    --azul-principal: #032D60;
+    --azul-salesforce: #00A1E0;
+}
+
+.content-prod{
+    display: flex;
+    justify-content: center;
+}
 .content-card{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
+    max-width: 67%;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     max-width: 300px;
-    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.img-produtos{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+.card h3, .card p{
+    color: var(--azul-principal);
+    max-width: 90%;
+}
+.card h3{
+    height: 1vh;
+    margin-bottom: 15px;
+}
+.card p{
+    width: 95%;
+    text-wrap: balance;
+}
+
+@media screen and (max-width: 1440px) {
+    .content-card{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .content-card{
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-card{
+        max-width: 85vw;
+    }
 }

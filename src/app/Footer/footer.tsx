@@ -3,6 +3,7 @@ import Image from 'next/image';
 import logoFiap from '../../../public/assets/LogoFiap.png'
 import logoSalesforce from '../../../public/assets/logoSalesforce.svg'
 import '../../../public/css/footer.css'
+import Link from 'next/link';
 
 const Footer = () => {
     return(
@@ -21,8 +22,8 @@ const Footer = () => {
                 <div className="endereco-logos">
                     <address>FIAP, 7th floor - Torre A, R. Fidêncio Ramos, 308 - Vila Olímpia, São Paulo - SP, 04551-000</address>
                     <div className="logos-footer">
-                        <Image src={logoSalesforce} alt='Logo da SalesForce'/>
-                        <Image src={logoFiap} alt='Logo da FIAP'/>
+                        <Link href={'/'}><Image src={logoSalesforce} alt='Logo da SalesForce'/></Link>
+                        <Link href={'https://www.fiap.com.br/'} target='_blank'><Image src={logoFiap} alt='Logo da FIAP'/></Link>
                     </div>
                 </div>
                 
