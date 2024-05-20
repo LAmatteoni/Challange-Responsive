@@ -67,9 +67,18 @@
     font-size: 18px;
 }
 
+.quebra{
+    border: 1px solid var(--azul-principal);
+    margin: 0 5%;
+}
+
 @media screen and (min-width: 768px){
     .equipe h1{
         font-size: 60px;
+    }
+
+    .quebra{
+        margin: 0;
     }
 }
 

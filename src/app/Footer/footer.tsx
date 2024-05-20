@@ -23,7 +23,7 @@ const Footer = () => {
                     <address>FIAP, 7th floor - Torre A, R. Fidêncio Ramos, 308 - Vila Olímpia, São Paulo - SP, 04551-000</address>
                     <div className="logos-footer">
                         <Link href={'/'}><Image src={logoSalesforce} alt='Logo da SalesForce'/></Link>
-                        <Link href={'https://www.fiap.com.br/'} target='_blank'><Image src={logoFiap} alt='Logo da FIAP'/></Link>
+                        <Link href={'https://www.fiap.com.br/'} target='_blank'><Image className='logoFiap' src={logoFiap} alt='Logo da FIAP'/></Link>
                     </div>
                 </div>
                 

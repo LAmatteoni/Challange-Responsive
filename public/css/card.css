@@ -22,7 +22,7 @@
     max-width: 300px;
     background-color: white;
     border-radius: 20px;
-    transition: all 0.3s ease;
+    min-height: 350px;
 }
 .img-produtos{
     width: 100%;
@@ -36,6 +36,7 @@
 .card h3{
     height: 1vh;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 .card p{
     width: 95%;

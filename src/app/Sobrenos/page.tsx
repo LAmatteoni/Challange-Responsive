@@ -34,6 +34,7 @@ const Sobrenos = () => {
                     <Image src={AstroVaral} alt='Astro e seus amigos pendurados num varal'/>
                 </div>
             </section>
+            <hr className='quebra'/>
         </>
     )
 }

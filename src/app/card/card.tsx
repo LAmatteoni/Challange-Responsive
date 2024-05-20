@@ -27,7 +27,6 @@ const Card = () => {
                         <Image className="img-produtos" src={"/assets/" + produto.area_atuacao + ".svg"} width={100} height={100} alt={produto.area_atuacao}/>
                         <h3>{produto.nome}</h3>
                         <p>{produto.descricao}</p>
-                        <p>R$ {produto.valor}</p>
                     </div>
                     ))}
                 </div>

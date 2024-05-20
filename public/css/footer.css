@@ -12,7 +12,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--azul-principal);
+    background-color: white;
     padding: 30px 20px;
 }
 
@@ -37,7 +37,7 @@ footer{
 
 .menu-footer a{
     text-decoration: none;
-    color: #fff;
+    color: var(--azul-principal);
     font-size: 20px;
 }
 
@@ -55,7 +55,6 @@ footer{
     padding-bottom: 10px;
 }
 .endereco-logos address{
-    color: #fff;
     text-align: center;
 }
 .logos-footer{
@@ -67,8 +66,11 @@ footer{
 }
 
 .copyright{
-    color: white;
     padding: 20px 0;
+}
+
+.logoFiap{
+    filter: invert();
 }
 
 @media screen and (min-width: 1024px){

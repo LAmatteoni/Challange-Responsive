@@ -32,7 +32,7 @@ const Empresa = () => {
                     <div className="card-astro">
                     <Image src={AstroCorrida} alt='Astro correndo'/>
                         <h3>Sucesso do cliente</h3>
-                        <span>Quando nossos clientes são bem-sucedidos, temos ssucesso.</span>
+                        <span>Quando nossos clientes são bem-sucedidos, temos sucesso.</span>
                     </div>
                     <div className="card-astro">
                     <Image src={EinsteinSala} alt='Einstein ensinando na sala'/>
