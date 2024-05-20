@@ -6,3 +6,7 @@ e enviar como arquivo JSON, para consumo de Front em React next.js, passando os 
 video demonstrativo
 
 https://youtu.be/jz48PRb5ETw
+
+LINK DO GITHUB
+
+https://github.com/LAmatteoni/Challange-Responsive
