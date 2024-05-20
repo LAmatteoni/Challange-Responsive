@@ -14,8 +14,7 @@
     "node": "^18.20.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-vlibras": "^2.3.4",
-    "vlibras-nextjs": "^1.1.2"
+    "react-vlibras": "^2.3.4"
   },
   "devDependencies": {
     "@swc/cli": "^0.3.12",

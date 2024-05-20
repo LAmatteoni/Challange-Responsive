@@ -6,7 +6,7 @@ import VLibras from "react-vlibras";
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <VLibras />
+      <VLibras safeInit/>
       {children}
     </>
   );
